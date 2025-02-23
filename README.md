@@ -169,7 +169,6 @@ To deploy on AWS, please check the README in aws/ directory.
 
 - **`retrievers/`**: Code for implementing retrieval models like BM25, SPLADEv2, ColBERT, Doc2Vec, GTR.
 - **`llm_backend/`**: Integrations for LLMs such as LLAMA2, GPT, Claude to generate responses.
-- **`scripts/`**: Utility scripts for running benchmarks, retrieving documents, and measuring performance.
 
 
 The readme and comments in the code in this repo have been enhanced with open-sourced GenAI tools.
