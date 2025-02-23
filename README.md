@@ -167,9 +167,10 @@ To deploy on AWS, please check the README in aws/ directory.
 
 ## Directory Structure
 
-- **`retrievers/`**: Code for implementing retrieval models like BM25, SPLADEv2, ColBERT, Doc2Vec, GTR.
-- **`llm_backend/`**: Integrations for LLMs such as LLAMA2, GPT, Claude to generate responses.
-
+- **`benchmarks/`**: Code for implementing retrieval models such as BM25, SPLADEv2, ColBERT, Doc2Vec, and GTR.
+- **`llm_backend/`**: Integrations for LLMs like LLAMA2, GPT, and Claude to generate responses.
+- **`example_traces/`**: Contains traces that show the path a query traverses on the HNSW graph and the corresponding neighbors of the node.
+- **`ragx-faiss/`**: A modified version of the official FAISS code with added support for retrieving embeddings from NVMe/SSD.
 
 The readme and comments in the code in this repo have been enhanced with open-sourced GenAI tools.
 
